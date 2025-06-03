@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+#parts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.part {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.part h3 {
+  margin-top: 0;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.label-container input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#playAll {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+} 

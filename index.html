@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>コーラス用オンラインツール</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>コーラス用オンラインツール</h1>
+  <div id="parts">
+    <div class="part" id="part_1">
+      <input type="file" accept="audio/*" id="fileInput_1">
+      <div class="label-container">
+        <input type="text" id="fileLabel_1" value="" disabled>
+        <button id="editButton_1">編集</button>
+      </div>
+      <label><input type="checkbox" id="mute_1"> ミュート</label>
+    </div>
+    <div class="part" id="part_2">
+      <input type="file" accept="audio/*" id="fileInput_2">
+      <div class="label-container">
+        <input type="text" id="fileLabel_2" value="" disabled>
+        <button id="editButton_2">編集</button>
+      </div>
+      <label><input type="checkbox" id="mute_2"> ミュート</label>
+    </div>
+    <div class="part" id="part_3">
+      <input type="file" accept="audio/*" id="fileInput_3">
+      <div class="label-container">
+        <input type="text" id="fileLabel_3" value="" disabled>
+        <button id="editButton_3">編集</button>
+      </div>
+      <label><input type="checkbox" id="mute_3"> ミュート</label>
+    </div>
+    <div class="part" id="part_4">
+      <input type="file" accept="audio/*" id="fileInput_4">
+      <div class="label-container">
+        <input type="text" id="fileLabel_4" value="" disabled>
+        <button id="editButton_4">編集</button>
+      </div>
+      <label><input type="checkbox" id="mute_4"> ミュート</label>
+    </div>
+    <div class="part" id="part_5">
+      <input type="file" accept="audio/*" id="fileInput_5">
+      <div class="label-container">
+        <input type="text" id="fileLabel_5" value="" disabled>
+        <button id="editButton_5">編集</button>
+      </div>
+      <label><input type="checkbox" id="mute_5"> ミュート</label>
+    </div>
+    <div class="part" id="part_6">
+      <input type="file" accept="audio/*" id="fileInput_6">
+      <div class="label-container">
+        <input type="text" id="fileLabel_6" value="" disabled>
+        <button id="editButton_6">編集</button>
+      </div>
+      <label><input type="checkbox" id="mute_6"> ミュート</label>
+    </div>
+    <div class="part" id="part_7">
+      <input type="file" accept="audio/*" id="fileInput_7">
+      <div class="label-container">
+        <input type="text" id="fileLabel_7" value="" disabled>
+        <button id="editButton_7">編集</button>
+      </div>
+      <label><input type="checkbox" id="mute_7"> ミュート</label>
+    </div>
+    <div class="part" id="part_8">
+      <input type="file" accept="audio/*" id="fileInput_8">
+      <div class="label-container">
+        <input type="text" id="fileLabel_8" value="" disabled>
+        <button id="editButton_8">編集</button>
+      </div>
+      <label><input type="checkbox" id="mute_8"> ミュート</label>
+    </div>
+  </div>
+  <button id="playAll">全パート再生</button>
+  <button id="stopAll">停止</button>
+  <div id="sliderContainer">
+    <input type="range" id="seekSlider" min="0" max="100" value="0" step="0.01">
+    <span id="sliderValue">0.00秒</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
